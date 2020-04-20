@@ -1,10 +1,10 @@
 .Toolbar {
-  height: 58px;
+  height: 56px;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #96383898;
+  background-color: #754848;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,4 +19,10 @@
 
 .Logo {
   height: 80%;
+}
+
+@media (max-width: 499px) {
+  .DesktopOnly {
+    display: none;
+  }
 }
